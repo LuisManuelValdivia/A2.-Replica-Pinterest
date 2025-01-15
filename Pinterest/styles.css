@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eee8e8;
+    color: white;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .label {
+    padding: 10px 15px;
+    border: 1px solid #221c1c;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #5f5555;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+}
+
+.buttonmas {
+    padding: 10px 15px;
+    border: 1px solid #221c1c;
+    color: #ffffff;
+    background-color: #1e1e1e;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+}
+
+  .search-bar {
+    display: flex;
+    padding: 10px;
+    background-color: #1e1e1e;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: white;
+  }
+
+  .lupa {
+    height: 40px;
+  }
+
+  .menu {
+    height: 30px;
+  }
+  
+  .tabs, .filters {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #1e1e1e;
+  }
+  
+  .tabs button {
+    background: none;
+    color: rgb(240, 226, 226);
+    border-radius: 10px;
+    border:  solid #221c1c;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .filters button {
+    height: 35px;
+    width: auto;
+    background: none;
+    color: rgb(240, 226, 226);
+    border-radius: 10px;
+    border: 2px solid #e2d0d0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    background-color: #121212;
+  }
+  
+  .gallery img {
+    width: 30%;
+    border-radius: 10px;
+  }
+  
